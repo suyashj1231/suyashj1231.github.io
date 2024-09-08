@@ -1,4 +1,5 @@
 import About from "./assets/components/About";
+import Experience from "./assets/components/Experience";
 import Hero from "./assets/components/hero";
 import NavBar from "./assets/components/NavBar";
 import Technologies from "./assets/components/Technologies";
@@ -15,6 +16,7 @@ export default function App() {
       <Hero/>
       <About/>
       <Technologies/>
+      <Experience/>
       </div>
       
     </div>
