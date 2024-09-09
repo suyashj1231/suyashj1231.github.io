@@ -1,7 +1,11 @@
 import project1 from "../assets/projects/project-1.jpg";
+import project1rover from "../assets/projects/project-1-rover.jpg";
+import project2garden from "../assets/projects/project-2-garden.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project3airport from "../assets/projects/project-3-airport.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project4login from "../assets/projects/project-4-login.png";
 
 export const HERO_CONTENT = `I am a driven computer science student and aspiring full-stack developer with a passion for creating innovative technological solutions. With expertise in ReactJS, NodeJS, and cloud technologies, I've developed a range of projects from AI-powered chatbots to embedded systems. My experience spans web development, mobile applications, and cutting-edge research in 3D printing. I aim to leverage my diverse skill set in AI, robotics, and software engineering to craft efficient, user-centric applications that tackle real-world challenges and push the boundaries of technology.`;
 
@@ -47,33 +51,66 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "RC Rover Development Project",
-    image: project1, // placeholder for actual image reference
+    image: project1rover,
     description:
       "An innovative RC Rover with integrated sensors for computer vision, obstacle detection, and object manipulation. Features include PixyCam for vision, infrared sensors, and a mechanical claw, all controlled via Arduino.",
     technologies: ["Arduino", "PixyCam", "Infrared Sensors", "SolidWorks", "3D Printing"],
   },
   {
     title: "AI-Powered Chatbot",
-    image: project2, // placeholder for actual image reference
+    image: project2garden,
     description:
       "An AI-powered chatbot developed for GDSC UCI, featuring advanced NLP techniques for context-aware responses, sentiment analysis, and knowledge base integration. Achieved 80% accuracy in understanding natural language queries.",
     technologies: ["Python", "NLTK", "Machine Learning", "NLP"],
   },
   {
     title: "Flight Data Processing Pipeline",
-    image: project3, // placeholder for actual image reference
+    image: project3airport,
     description:
       "An advanced Flight Database System using Python and SQLite3, optimized for efficient data retrieval and manipulation. Handles 10,000+ records with 35% improved efficiency and ensures data integrity through SQL constraints and normalization.",
-    technologies: ["Python", "SQLite3", "Database Optimization", "SQL"],
+    technologies: ["Python", "SQLite3", "Database Optimization", "SQL", "Tkinter"],
   },
   {
     title: "Secure Chat Messenger",
-    image: project4, // placeholder for actual image reference
+    image: project4login, 
     description:
       "A direct messaging chat application with a robust server-client architecture, featuring real-time communication, user authentication, and encryption. Utilizes Tkinter for an intuitive GUI and multi-threading for efficient concurrent connections.",
     technologies: ["Python", "Tkinter", "Encryption", "Multi-threading"],
   },
 ];
+
+
+export const COMPETITION = [
+  {
+    title: "SEA X SEP Pitching Competion",
+    image: project1rover,
+    description:
+      "An innovative RC Rover with integrated sensors for computer vision, obstacle detection, and object manipulation. Features include PixyCam for vision, infrared sensors, and a mechanical claw, all controlled via Arduino.",
+    technologies: ["Arduino", "PixyCam", "Infrared Sensors", "SolidWorks", "3D Printing"],
+  },
+  {
+    title: "lXI Case Study Competition",
+    image: project2garden,
+    description:
+      "An AI-powered chatbot developed for GDSC UCI, featuring advanced NLP techniques for context-aware responses, sentiment analysis, and knowledge base integration. Achieved 80% accuracy in understanding natural language queries.",
+    technologies: ["Python", "NLTK", "Machine Learning", "NLP"],
+  },
+  {
+    title: "Flight Data Processing Pipeline",
+    image: project3airport,
+    description:
+      "An advanced Flight Database System using Python and SQLite3, optimized for efficient data retrieval and manipulation. Handles 10,000+ records with 35% improved efficiency and ensures data integrity through SQL constraints and normalization.",
+    technologies: ["Python", "SQLite3", "Database Optimization", "SQL", "Tkinter"],
+  },
+  {
+    title: "Secure Chat Messenger",
+    image: project4login, 
+    description:
+      "A direct messaging chat application with a robust server-client architecture, featuring real-time communication, user authentication, and encryption. Utilizes Tkinter for an intuitive GUI and multi-threading for efficient concurrent connections.",
+    technologies: ["Python", "Tkinter", "Encryption", "Multi-threading"],
+  },
+];
+
 
 export const CONTACT = {
   address: "1020 Stanford, Irvine, CA 92617 ",

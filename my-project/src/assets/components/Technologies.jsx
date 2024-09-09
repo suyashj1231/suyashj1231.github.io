@@ -9,9 +9,9 @@ import { SiFlutter } from 'react-icons/si';
 import { animate, motion } from 'framer-motion'
 
 const iconVariants = (duration) => ({
-    initial: { y: -15 },
+    initial: { y: -10 },
   animate: {
-    y: [0, -15],
+    y: [10, -10],
     transition: {
       duration: duration,
       ease: "linear",
