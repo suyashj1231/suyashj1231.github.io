@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { HERO_CONTENT } from "../../constants/index.js"
 import profilePic from "../kevinRushProfile.png"
+import profilePic1 from "../profile.png"
 
 const container = (delay) => ({
   hidden: { x:-100, opacity:0 },
@@ -38,7 +39,8 @@ return (<div className='border-b border-neutral-900 pb-4 lg:mb-35'>
        initial= {{x:100, opacity:0}}
        animate= {{x:0., opacity:1}}
        transition={{duration:1, delay:1.2}}
-       src={profilePic} alt="Profile pic" /></div>
+       src={profilePic1} alt="Profile pic" 
+       className='object-cover rounded-lg'/></div>
   </div>
 </div>)
 }

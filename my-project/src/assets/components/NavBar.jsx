@@ -19,7 +19,6 @@ const NavBar = () => {
         <FaInstagram />
       </a>
     </div>
-
   </nav>
 }
 
