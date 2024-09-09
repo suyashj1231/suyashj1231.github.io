@@ -32,7 +32,7 @@ const Experience = () => {
             </span>
           </h6>
           <p className="mb-4 text-neutral-400">{experience.description}</p>
-          <div>
+          <div className="flex flex-wrap">
             {/* type of job i did lol */}
           <span className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-400'>
               {experience.type} 
