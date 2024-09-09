@@ -4,9 +4,13 @@ import project2garden from "../assets/projects/project-2-garden.png";
 import project3airport from "../assets/projects/project-3-airport.jpg";
 import project4login from "../assets/projects/project-4-login.png";
 
-export const HERO_CONTENT = `I am a driven computer science student and aspiring full-stack developer with a passion for creating innovative technological solutions. With expertise in ReactJS, NodeJS, and cloud technologies, I've developed a range of projects from AI-powered chatbots to embedded systems. My experience spans web development, mobile applications, and cutting-edge research in 3D printing. I aim to leverage my diverse skill set in AI, robotics, and software engineering to craft efficient, user-centric applications that tackle real-world challenges and push the boundaries of technology.`;
+export const HERO_CONTENT = `Hi there! Welcome to my digital playground.
+I'm Suyash, an AI and Machine Learning enthusiast on a mission to change the world, one algorithm at a time. Passionate about leveraging technology to tackle UN Sustainable Development Goals, I'm here to turn complex puzzles into innovative solutions that make a difference. Ready to explore the future of tech with me?`;
 
-export const ABOUT_TEXT = `I am a dedicated computer science student with a passion for both theoretical and practical aspects of technology. My expertise spans full-stack development, AI, robotics, and cloud computing. I've developed skills in ReactJS, NodeJS, Firebase, and Android development through various projects, including website revamps, mobile applications, and embedded systems work. My project portfolio showcases my ability to apply technical knowledge to real-world problems, from NLP-based chatbots to flight data processing systems. I thrive in collaborative environments and continuously seek to expand my skills. Outside of coding, I participate in tech competitions and enjoy tackling complex challenges to create innovative solutions.`;
+export const ABOUT_TEXT = `Dedicated computer science student with a focus on AI and Machine Learning. My tech journey is fueled by a passion for creating innovative solutions that address real-world challenges, particularly those aligned with UN Sustainable Development Goals.
+My expertise spans AI, robotics, and cloud computing, with hands-on experience in ReactJS, NodeJS, Firebase, and Android development. From AI-powered chatbots to embedded systems, I'm always pushing the boundaries of what technology can achieve.
+When I'm not coding, you'll find me solving puzzles, playing pickleball, or cycling – because a sharp mind needs an active body! I thrive in collaborative environments and love participating in tech competitions to stay at the cutting edge of innovation.
+My goal? To develop accessible, intelligent technologies that benefit everyone and tackle global issues. Let's create a more inclusive and sustainable future through the power of tech!`;
 
 export const ABOUT_EDUCATION = "2022- Present: University of California, Irvine";
 
