@@ -3,74 +3,81 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a driven computer science student and aspiring full-stack developer with a passion for creating innovative technological solutions. With expertise in ReactJS, NodeJS, and cloud technologies, I've developed a range of projects from AI-powered chatbots to embedded systems. My experience spans web development, mobile applications, and cutting-edge research in 3D printing. I aim to leverage my diverse skill set in AI, robotics, and software engineering to craft efficient, user-centric applications that tackle real-world challenges and push the boundaries of technology.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated computer science student with a passion for both theoretical and practical aspects of technology. My expertise spans full-stack development, AI, robotics, and cloud computing. I've developed skills in ReactJS, NodeJS, Firebase, and Android development through various projects, including website revamps, mobile applications, and embedded systems work. My project portfolio showcases my ability to apply technical knowledge to real-world problems, from NLP-based chatbots to flight data processing systems. I thrive in collaborative environments and continuously seek to expand my skills. Outside of coding, I participate in tech competitions and enjoy tackling complex challenges to create innovative solutions.`;
+
+export const ABOUT_EDUCATION = "2022- Present: University of California, Irvine";
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2024 - Present",
+    role: "Tech Director",
+    company: "Engineering Student Council (ESC)",
+    description: `Revamped the website using ReactJS, leveraging Google Cloud Functions and Firestore. Automated various functions, reducing event integration time from 1-2 days to 5-10 minutes. Designed and developed a high-performance corporate website using ReactJS for the front end and NodeJS with Express for the back end.`,
+    technologies: ["ReactJS", "NodeJS", "Firestore", "Google Cloud"],
+    type: "Club",
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Feb 2024 - Present",
+    role: "Software Developer",
+    company: "Google Developer Student Club",
+    description: `Collaborated to develop a mobile application for the GDSC Solution Challenge, facilitating community issue reporting. Implemented server-side functionality using Firebase, enabling seamless data sharing with local authorities and real-time updates, resulting in a 40% reduction in issue resolution time.`,
+    technologies: ["Android Studio", "Figma", "Firebase", "C++"],
+    type: "Club",
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "April 2021 - June 2021",
+    role: "Software Engineering Intern",
+    company: "Indian Institute of Information Technology, Design and Manufacturing",
+    description: `Gained proficiency in embedded system design through rigorous coursework and hands-on lab sessions. Contributed to a cutting-edge research project funded by SERB and DST, focused on developing an innovative computer numerical positioning system for 3D Printing/Additive Manufacturing.`,
+    technologies: ["C++", "SolidWorks", "Microcontrollers", "Embedded Systems"],
+    type: "Internship",
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  //   type: "Oranisation",
+  // },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "RC Rover Development Project",
+    image: project1, // placeholder for actual image reference
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "An innovative RC Rover with integrated sensors for computer vision, obstacle detection, and object manipulation. Features include PixyCam for vision, infrared sensors, and a mechanical claw, all controlled via Arduino.",
+    technologies: ["Arduino", "PixyCam", "Infrared Sensors", "SolidWorks", "3D Printing"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "AI-Powered Chatbot",
+    image: project2, // placeholder for actual image reference
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An AI-powered chatbot developed for GDSC UCI, featuring advanced NLP techniques for context-aware responses, sentiment analysis, and knowledge base integration. Achieved 80% accuracy in understanding natural language queries.",
+    technologies: ["Python", "NLTK", "Machine Learning", "NLP"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Flight Data Processing Pipeline",
+    image: project3, // placeholder for actual image reference
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An advanced Flight Database System using Python and SQLite3, optimized for efficient data retrieval and manipulation. Handles 10,000+ records with 35% improved efficiency and ensures data integrity through SQL constraints and normalization.",
+    technologies: ["Python", "SQLite3", "Database Optimization", "SQL"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Secure Chat Messenger",
+    image: project4, // placeholder for actual image reference
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A direct messaging chat application with a robust server-client architecture, featuring real-time communication, user authentication, and encryption. Utilizes Tkinter for an intuitive GUI and multi-threading for efficient concurrent connections.",
+    technologies: ["Python", "Tkinter", "Encryption", "Multi-threading"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "1020 Stanford, Irvine, CA 92617 ",
+  phoneNo: "+1 (949) 992-5767",
+  email: "j.suyash1231@gmail.com",
+  LinkedIn: "https://www.linkedin.com/in/jain-suyash/",
 };

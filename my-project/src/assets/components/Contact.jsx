@@ -9,10 +9,10 @@ const Contact = () => {
             <p className='my-4'>{CONTACT.address}</p>
             <p className='my-4'>{CONTACT.phoneNo}</p>
             <p className='my-4'>
-                <a href="#" className='border-b'>{CONTACT.email}</a>
+                <a href={`mailto:${CONTACT.email}`} className='border-b'>{CONTACT.email}</a>
             </p>
             <p className='my-4'>
-                <a href="#1" className='border-b'>LinkedIn</a>
+                <a href={CONTACT.LinkedIn} className='border-b'>LinkedIn</a>
             </p>
         </div>
     </div>

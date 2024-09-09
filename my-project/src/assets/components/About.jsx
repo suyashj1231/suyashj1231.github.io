@@ -1,6 +1,8 @@
 import React from 'react'
 import aboutImg from "../about.jpg"
 import { ABOUT_TEXT } from '../../constants'
+import { ABOUT_EDUCATION } from '../../constants'
+
 const About = () => {
   return (
   <div className='border-b border-neutral-900 pb-4'>
@@ -18,7 +20,16 @@ const About = () => {
                 <div className='flex justify-center lg:justify-start'>
                     <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
                 </div>
-                </div>
+                {/* UCI */}
+            <div className='flex justify-center lg:justify-start'>
+            <div className='my-2 max-w-xl py-4 text-center lg:text-left'>
+              <h3 className='text-2xl font-semibold'>Education</h3>
+              <p>{ABOUT_EDUCATION}</p>
+            </div>
+            </div>
+            {/* UCI end */}
+
+        </div>
         </div>
         </div>)
 }
