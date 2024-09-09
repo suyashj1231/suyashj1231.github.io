@@ -80,4 +80,6 @@ export const CONTACT = {
   phoneNo: "+1 (949) 992-5767",
   email: "j.suyash1231@gmail.com",
   LinkedIn: "https://www.linkedin.com/in/jain-suyash/",
+  Github:"https://github.com/suyashj1231",
+  instagram:"https://www.instagram.com/suyyashjainn/",
 };
