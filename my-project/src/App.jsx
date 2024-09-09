@@ -1,7 +1,9 @@
 import About from "./assets/components/About";
+import Contact from "./assets/components/Contact";
 import Experience from "./assets/components/Experience";
 import Hero from "./assets/components/hero";
 import NavBar from "./assets/components/NavBar";
+import Projects from "./assets/components/Projects";
 import Technologies from "./assets/components/Technologies";
 
 export default function App() {
@@ -17,6 +19,8 @@ export default function App() {
       <About/>
       <Technologies/>
       <Experience/>
+      <Projects/>
+      <Contact/>
       </div>
       
     </div>
