@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { HERO_CONTENT } from "../../constants/index.js"
 import profilePic from "../kevinRushProfile.png"
-import profilePic1 from "../profile.jpg"
+import profilePic1 from "../profile2.png"
 
 const container = (delay) => ({
   hidden: { x:-100, opacity:0 },
