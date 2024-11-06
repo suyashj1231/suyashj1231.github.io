@@ -27,9 +27,13 @@ const Contact = () => {
              className='my-4'>
                 <a href={`mailto:${CONTACT.email}`} className='border-b'>{CONTACT.email}</a>
             </motion.p>
-            <motion.p className=''>
+            <motion.p className='my-4'>
                 <a href={CONTACT.LinkedIn} className='border-b'>LinkedIn</a>
             </motion.p>
+            <motion.p className='my-4'>
+                <a href="src/assets/components/Resume_Suyash.pdf" target="_blank" rel="noopener noreferrer" className='border-b'>Resume</a>
+            </motion.p>
+
         </div>
     </div>
   )

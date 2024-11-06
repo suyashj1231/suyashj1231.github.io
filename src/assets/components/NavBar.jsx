@@ -1,5 +1,5 @@
 import logo from "../logosjw.png";
-import {FaLinkedin, FaGithub, FaInstagram} from 'react-icons/fa'
+import {FaLinkedin, FaGithub, FaInstagram,FaFilePdf } from 'react-icons/fa'
 import React from 'react'
 import { CONTACT } from '../../constants';
 import { motion } from 'framer-motion';
@@ -28,6 +28,9 @@ const NavBar = () => {
         <img src={logo} className='mx-2 w-20' alt="logo" />
     </motion.div>
     <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+      <a href="src/assets/components/Resume_Suyash.pdf" target="_blank" rel="noopener noreferrer">
+        <FaFilePdf />
+      </a>
       <a href={CONTACT.LinkedIn} target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
       </a>
