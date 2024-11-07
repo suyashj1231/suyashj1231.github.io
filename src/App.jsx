@@ -5,6 +5,7 @@ import Hero from "./assets/components/Hero";
 import NavBar from "./assets/components/NavBar";
 import Projects from "./assets/components/Projects";
 import Technologies from "./assets/components/Technologies";
+import Competitions from "./assets/components/Competitions";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Technologies/>
       <Experience/>
       <Projects/>
+      <Competitions/>
       <Contact/>
       </div>
       

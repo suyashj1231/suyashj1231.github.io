@@ -3,6 +3,8 @@ import project1rover from "../assets/projects/project-1-rover.jpg";
 import project2garden from "../assets/projects/project-2-garden.png";
 import project3airport from "../assets/projects/project-3-airport.jpg";
 import project4login from "../assets/projects/project-4-login.png";
+import competionlxi from "../assets/projects/tb.png";
+import competionsea from "../assets/projects/SEAXSEP.png";
 
 export const HERO_CONTENT = `Hi there! Welcome to my digital playground.
 I'm Suyash, an AI and Machine Learning enthusiast on a mission to change the world, one algorithm at a time. Passionate about leveraging technology to tackle UN Sustainable Development Goals, I'm here to turn complex puzzles into innovative solutions that make a difference. Ready to explore the future of tech with me?`;
@@ -81,36 +83,24 @@ export const PROJECTS = [
 ];
 
 
-// export const COMPETITION = [
-//   {
-//     title: "SEA X SEP Pitching Competion",
-//     image: project1rover,
-//     description:
-//       "An innovative RC Rover with integrated sensors for computer vision, obstacle detection, and object manipulation. Features include PixyCam for vision, infrared sensors, and a mechanical claw, all controlled via Arduino.",
-//     technologies: ["Arduino", "PixyCam", "Infrared Sensors", "SolidWorks", "3D Printing"],
-//   },
-//   {
-//     title: "lXI Case Study Competition",
-//     image: project2garden,
-//     description:
-//       "An AI-powered chatbot developed for GDSC UCI, featuring advanced NLP techniques for context-aware responses, sentiment analysis, and knowledge base integration. Achieved 80% accuracy in understanding natural language queries.",
-//     technologies: ["Python", "NLTK", "Machine Learning", "NLP"],
-//   },
-//   {
-//     title: "Flight Data Processing Pipeline",
-//     image: project3airport,
-//     description:
-//       "An advanced Flight Database System using Python and SQLite3, optimized for efficient data retrieval and manipulation. Handles 10,000+ records with 35% improved efficiency and ensures data integrity through SQL constraints and normalization.",
-//     technologies: ["Python", "SQLite3", "Database Optimization", "SQL", "Tkinter"],
-//   },
-//   {
-//     title: "Secure Chat Messenger",
-//     image: project4login, 
-//     description:
-//       "A direct messaging chat application with a robust server-client architecture, featuring real-time communication, user authentication, and encryption. Utilizes Tkinter for an intuitive GUI and multi-threading for efficient concurrent connections.",
-//     technologies: ["Python", "Tkinter", "Encryption", "Multi-threading"],
-//   },
-// ];
+export const COMPETITION = [
+  {
+    title: "LXI Case Competition",
+    image: competionlxi,
+    role: "Project Team Lead",
+    description:
+      "In the LXI Case Competition, I led a team in analyzing McDonald’s strategic approach to AI, presenting our findings and strategic recommendations to Taco Bell’s executive board. Our team identified key industry success factors, examined the cost-efficiency of McDonald’s Dynamic Yield AI, and proposed actionable solutions to overcome potential implementation challenges. We also conducted a competitive analysis for Taco Bell, revealing insights on leveraging AI and strengthening their technological approach through predictive analytics. Our presentation demonstrated our ability to translate complex analyses into strategic recommendations, highlighting our expertise in addressing industry-specific challenges and fostering innovation in the fast food sector.",
+      skills: ["Strategic Analysis", "Competitive Analysis", "Presentation Skills", "AI Applications", "Industry Insights"],     
+  },
+  {
+    title: "SEA x SEP Social Enterprise Pitch Competition",
+    image: competionsea,
+    role: "Project Team Lead",
+    description:
+      " I had the opportunity to lead a diverse team in the Social Enterprise Pitch Competition, where we introduced an innovative E-Waste Sorting System to advance sustainability in the energy sector. Our proposal combined mechanical sorting, magnetic and eddy current separation, optical and X-ray sorting, and AI-powered robotic sorting for efficient battery extraction. We further enhanced metal fraction refinement through density and chemical separation, focusing on financial viability, scalability, and delivering substantial social and environmental benefits.This experience reflects my dedication to fostering innovation and sustainability through advanced technologies, equipping me with valuable skills for future initiatives addressing global environmental challenges.",
+      skills: ["Project Management", "Technical Expertise", "Sustainability Innovation", "Analytical Skills", "Feasibility Assessment"],
+    },
+];
 
 
 export const CONTACT = {
