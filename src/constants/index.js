@@ -14,9 +14,21 @@ My expertise spans AI, robotics, and cloud computing, with hands-on experience i
 When I'm not coding, you'll find me solving puzzles, playing pickleball, or cycling – because a sharp mind needs an active body! I thrive in collaborative environments and love participating in tech competitions to stay at the cutting edge of innovation.
 My goal? To develop accessible, intelligent technologies that benefit everyone and tackle global issues. Let's create a more inclusive and sustainable future through the power of tech!`;
 
-export const ABOUT_EDUCATION = "2022- Present: University of California, Irvine";
+export const ABOUT_EDUCATION = [
+  {year: "2022- Present:", major:"Computer Science",type:"Bachelor's of Science",location:"University of California, Irvine"}, 
+
+  {year: "2022- Present:", major:"Business Information Management",type:"Bachelor's of Science", location:"University of California, Irvine"} ];
 
 export const EXPERIENCES = [
+  {
+    year: "Dec 2024 - Present",
+    role: "Student Desktop Support Analyst",
+    company: "Office of Information Technology",
+    description: `Provided on-demand remote and on-site IT support to over 3,000 administrative staff, ensuring timely issue resolution and strict adherence to a 7-day SLA. Spearheaded hardware deployment projects, coordinating with cross-functional teams to properly configure devices. Collaborated with specialized IT groups to troubleshoot and quickly resolve software and hardware issues, maintaining a high standard of service.`,
+    technologies: ["ServiceNow", "BigFix", "BomGar", "SCCM/Intune","Diagnostics"],
+    type: "Part-time",
+
+  },
   {
     year: "May 2024 - Present",
     role: "Tech Director",
@@ -80,6 +92,8 @@ export const PROJECTS = [
       "A direct messaging chat application with a robust server-client architecture, featuring real-time communication, user authentication, and encryption. Utilizes Tkinter for an intuitive GUI and multi-threading for efficient concurrent connections.",
     technologies: ["Python", "Tkinter", "Encryption", "Multi-threading"],
   },
+
+
 ];
 
 

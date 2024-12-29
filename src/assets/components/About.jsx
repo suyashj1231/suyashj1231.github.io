@@ -34,11 +34,22 @@ const About = () => {
                 <div className='flex justify-center lg:justify-start'>
                     <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
                 </div>
-                {/* UCI */}
-            <div className='flex justify-center lg:justify-start'>
-            <div className='my-2 max-w-xl py-4 text-center lg:text-left'>
-              <h3 className='text-2xl font-semibold'>Education</h3>
-              <p>{ABOUT_EDUCATION}</p>
+                <div className='flex justify-center lg:justify-start'>
+                <div className='my-2 max-w-xl py-4 text-center lg:text-left'>
+                    <h3 className='text-2xl font-semibold'>Education</h3>
+                    <div>
+                    {ABOUT_EDUCATION.map((education, index) => (
+                        <div key={index} className="mt-2">
+                            <p className="mb-2">
+                                <span className="text-sm text-neutral-500">{education.year}</span>
+                                <span className=" px-2 py-1 text-medium font-medium text-purple-100">{education.major}</span>
+                            </p>
+                            <p className="text-sm text-cyan-400">{education.location}</p>
+                            <div className="mb-4"></div>
+                        </div>
+                    ))}
+                    </div>
+                    {/* <p>{ABOUT_EDUCATION}</p> */}
             </div>
             </div>
             {/* UCI end */}
