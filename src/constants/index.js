@@ -118,7 +118,7 @@ export const COMPETITION = [
 
 
 export const CONTACT = {
-  address: "1020 Stanford, Irvine, CA 92617 ",
+  address: "1020 Stanford, Irvine, CA 92612 ",
   phoneNo: "+1 (949) 992-5767",
   email: "j.suyash1231@gmail.com",
   LinkedIn: "https://www.linkedin.com/in/jain-suyash/",
