@@ -28,7 +28,7 @@ const NavBar = () => {
         <img src={logo} className='mx-2 w-20' alt="logo" />
     </motion.div>
     <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-      <a href="src/assets/components/Resume_Suyash.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1a2J7jExMEPUaV929Lmji6XyI7DKY7ph1/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
         <FaFilePdf />
       </a>
       <a href={CONTACT.LinkedIn} target="_blank" rel="noopener noreferrer">
