@@ -19,6 +19,7 @@ export const ABOUT_EDUCATION = [
 
   {year: "2022- Present:", major:"Business Information Management",type:"Bachelor's of Science", location:"University of California, Irvine"} ];
 
+  
 export const EXPERIENCES = [
   {
     year: "Dec 2024 - Present",
