@@ -46,7 +46,7 @@ export const EXPERIENCES = [
     type: "Club",
   },
   {
-    year: "April 2021 - June 2021",
+    year: "April 2023 - June 2023",
     role: "Software Engineering Intern",
     company: "Indian Institute of Information Technology, Design and Manufacturing",
     description: `Gained proficiency in embedded system design through rigorous coursework and hands-on lab sessions. Contributed to a cutting-edge research project funded by SERB and DST, focused on developing an innovative computer numerical positioning system for 3D Printing/Additive Manufacturing.`,
