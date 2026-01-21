@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const TechAnimation = () => {
     return (
-        <div className="flex items-center justify-center w-full h-full min-h-[300px] lg:min-h-[400px]">
+        <div className="flex items-center justify-center w-full h-full min-h-[240px] lg:min-h-[400px]">
             <svg
                 viewBox="0 0 400 400"
-                className="w-full h-full max-w-[400px] max-h-[400px]"
+                className="w-full h-full max-w-[240px] max-h-[240px] lg:max-w-[400px] lg:max-h-[400px]"
                 xmlns="http://www.w3.org/2000/svg"
             >
                 {/* Central Hexagon Pulse */}
