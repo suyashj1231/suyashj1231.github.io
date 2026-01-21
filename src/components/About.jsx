@@ -1,9 +1,8 @@
 import React from 'react'
-
-import aboutImg1 from "../assets/about1.png"
 import { ABOUT_TEXT } from '../constants'
 import { ABOUT_EDUCATION } from '../constants'
 import { motion } from 'framer-motion'
+import TechAnimation from "./TechAnimation";
 
 const About = () => {
     return (
@@ -23,7 +22,7 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className='w-full lg:w-1/2 lg:p-8'>
                     <div className="flex items-center justify-center">
-                        <img className=" mt-5 rounded-2xl" src={aboutImg1} alt="About" />
+                        <TechAnimation />
                     </div>
                 </motion.div>
                 <motion.div
