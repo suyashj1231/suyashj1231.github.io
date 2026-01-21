@@ -42,6 +42,31 @@ const TechAnimation = () => {
                     transition={{ duration: 3, repeat: Infinity }}
                 />
 
+                {/* NEW: Central Reactor Core */}
+                {/* 1. Rotating Dashed Ring */}
+                <motion.circle
+                    cx="200"
+                    cy="200"
+                    r="35"
+                    stroke="#a855f7" // Purple-500
+                    strokeWidth="3"
+                    strokeDasharray="10 15"
+                    fill="none"
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 6, repeat: Infinity, ease: "linear" }}
+                    style={{ originX: "200px", originY: "200px" }}
+                />
+
+                {/* 2. Solid Pulsing Core */}
+                <motion.circle
+                    cx="200"
+                    cy="200"
+                    r="15"
+                    fill="#06b6d4" // Cyan-500
+                    animate={{ opacity: [0.4, 1, 0.4], scale: [1, 1.2, 1] }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                />
+
                 {/* Outer Orbiting Dots */}
                 {[0, 120, 240].map((angle, i) => (
                     <motion.circle
