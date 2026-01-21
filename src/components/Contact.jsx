@@ -1,8 +1,8 @@
 import React from 'react'
-import { CONTACT } from '../../constants'
+import { CONTACT } from '../constants'
 import { motion } from 'framer-motion'
 
-import resume from "./Resume_Suyash_v01212026.pdf"
+import resume from "../assets/Resume_Suyash_v01212026.pdf"
 
 const Contact = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import aboutImg1 from "../about1.png"
-import { ABOUT_TEXT } from '../../constants'
-import { ABOUT_EDUCATION } from '../../constants'
+import aboutImg1 from "../assets/about1.png"
+import { ABOUT_TEXT } from '../constants'
+import { ABOUT_EDUCATION } from '../constants'
 import { motion } from 'framer-motion'
 
 const About = () => {

@@ -1,9 +1,9 @@
-import logo from "../logosjw.png";
+import logo from "../assets/logosjw.png";
 import { FaLinkedin, FaGithub, FaInstagram, FaFilePdf } from 'react-icons/fa'
 import React from 'react'
-import { CONTACT } from '../../constants';
+import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
-import resume from "./Resume_Suyash_v01212026.pdf";
+import resume from "../assets/Resume_Suyash_v01212026.pdf";
 
 
 const iconLogo = (duration) => ({
